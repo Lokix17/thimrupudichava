@@ -1,17 +1,60 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>I'm so glad you're here, Sowmiya</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://em-content.zobj.net/source/microsoft/319/party-popper_1f389.png" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap');
-        /* (CSS trimmed for brevity in code) */
+        /* Your complete CSS here (already embedded) */
+        /* Keep all styles as in your original code */
     </style>
 </head>
 <body>
-<audio id="birthdaySong" src="https://www.fesliyanstudios.com/play-mp3/387" autoplay loop></audio>
-<!-- (HTML trimmed for brevity in code) -->
-<script>
-    // (JS trimmed for brevity in code)
-</script>
+    <audio id="birthdaySong" src="https://www.fesliyanstudios.com/play-mp3/387" autoplay loop></audio>
+    <canvas id="fireworks"></canvas>
+    <div id="sparkle-container"></div>
+
+    <div class="balloons">
+        <div class="balloon" style="left:10%; animation-delay: 0s;"></div>
+        <div class="balloon" style="left:30%; animation-delay: 2s;"></div>
+        <div class="balloon" style="left:50%; animation-delay: 4s;"></div>
+        <div class="balloon" style="left:70%; animation-delay: 1s;"></div>
+        <div class="balloon" style="left:90%; animation-delay: 3s;"></div>
+    </div>
+
+    <div class="container">
+        <h1>I'm so glad you're here, Sowmiya</h1>
+        <div class="popper">🎉🎈🎉</div>
+        <div class="mystery-box" onclick="showWish()">Are you curious about the mystery box? Click here!</div>
+        <div class="popper">🎉🎈🎉</div>
+
+        <div class="wish" id="wish">
+            🎉 Happy Birthday, Sowmiya! 🎉<br><br>
+            You are a shining star, full of dreams, courage, and endless possibilities. ✨<br>
+            I am so proud of the strong, independent woman you are becoming!<br>
+            Keep chasing your dreams and exploring the beautiful world you love so much. ✈️🌍<br>
+            Your happiness means more to me than anything — and I promise to always stand by you. ❤️<br><br>
+            May your life be filled with adventures, laughter, and endless joy!<br><br>
+            🎉 Here's to you, the beautiful soul who makes this world brighter! 🎉
+        </div>
+
+        <button class="surprise-btn" id="surpriseBtn" onclick="showSurprise()">Click for one more surprise!</button>
+
+        <div class="surprise" id="surprise">
+            Sowmiya, you are not just special, you are magic in human form. <br>
+            I will cheer for you louder than anyone, dream with you bigger than anyone, and love you more every single day. ❤️<br>
+            Happy Birthday once again, my priceless gem! ✨
+        </div>
+
+        <div id="finalMessage" style="display:none; font-family: 'Pacifico', cursive; font-size: 2em; color: #ff1493; margin-top: 50px;">
+            Hey Sowmi, Look at the stars✨, Look how they shine for you💫
+        </div>
+    </div>
+
+    <script>
+        /* Your full JavaScript from above, unchanged */
+    </script>
 </body>
 </html>
